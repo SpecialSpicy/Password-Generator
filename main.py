@@ -32,7 +32,7 @@ def generate_password():
         print(password)
 
         #As said before ValueError is taken care of.
-    except ValueError:
+    except ValueError: 
         print("Please Type Only A Number!")
 
 #With a while loop the user gets asked if he/she wants a password
