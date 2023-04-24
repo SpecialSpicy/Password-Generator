@@ -43,7 +43,7 @@ while True:
 
     #With a If Statement the user's input gets taken care of
     if option == "y":
-        generate_password()
+        generate_password() 
     elif option == "n":
         print("Program Terminated!")
         quit()
