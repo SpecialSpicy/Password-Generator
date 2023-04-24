@@ -19,7 +19,7 @@ def generate_password():
         
         #An empty list
         password = [] 
-         
+          
         #A for loop to add random letters in length of the input of the user into our list
         for x in range(password_length):
             password.append(random.choice(characters))
